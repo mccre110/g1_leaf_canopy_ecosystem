@@ -25,6 +25,11 @@ paper: $(TEX_DIR)/figures.pdf
 $(DATA_DIR)/g1_leaf_gas_exchange.csv:	$(SRC)/estimate_g1_from_leaf_gas_exchange.py
 	python $<
 
+#Added rule for this csv
+$(DATA_DIR)/g1_fluxnet.csv:	$(SRC)/estimate_g1_from_fluxnet_data_MPI.py
+	python $<
+
+
 $(DATA_DIR)/g1_fluxnet_screened.csv:	$(SRC)/screen_fluxnet_g1_fits.py \
 										$(DATA_DIR)/g1_fluxnet.csv
 	python $<
