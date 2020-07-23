@@ -1,6 +1,6 @@
 # Prepend
 
-  * Must create the data/processed directory
+  * Must create the `data/processed` directory
   * More Python and R packages are required namely **GDAL**
   * Python **v2.7.13** & Pandas **v0.19.2** should be used
   * I added a line in the makefile to create `g1_fluxnet.csv` as it seemed to be misisng
