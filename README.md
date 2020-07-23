@@ -1,3 +1,17 @@
+# Prepend
+
+  * Must create the data/processed directory
+  * More Python and R packages are required namely **GDAL**
+  * Python **v2.7.13** & Pandas **v0.19.2** should be used
+  * I added a line in the makefile to create `g1_fluxnet.csv` as it seemed to be misisng
+  * `Rscript` is more standard now and can be used in place of `R CMD Batch` in the makefile
+  * LaThuile data needs to be added from and external source
+  
+  
+  ---
+  ---
+  
+
 # How do leaf and ecosystem measures of water-use efficiency compare?
 
 [Belinda E. Medlyn](https://bmedlyn.wordpress.com/),
